@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="org.alloytools.alloy.core:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/org_alloytools_alloy_core_jar</output-path>
+    <root id="archive" name="org.alloytools.alloy.core.jar">
+      <element id="module-output" name="org.alloytools.alloy.core" />
+      <element id="module-output" name="org.alloytools.kodkod.core" />
+      <element id="module-output" name="org.alloytools.kodkod.nativesat" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.annotation/2.1.100/org.eclipse.jdt.annotation-2.1.100.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Alloy5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/sat4j/org.sat4j.core/2.3.1/org.sat4j.core-2.3.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
