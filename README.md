@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Alloy-Codes-Version-5.1.0
 # 1. Project's Title:
 A machine learning-based framework for efficient solver.
