@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1565808838297
+Bundle-Copyright: MIT
+Bundle-DocURL: http://alloytools.org
+Bundle-License: MIT
+Bundle-ManifestVersion: 2
+Bundle-Name: org.alloytools.alloy.dist
+Bundle-SymbolicName: org.alloytools.alloy.dist
+Bundle-Vendor: AlloyTools at Github
+Bundle-Version: 5.1.0.201908141853
+Created-By: 1.8.0_144 (Oracle Corporation)
+Git-Descriptor: 5a14ca4
+Git-SHA: 5a14ca4daf465ca71400dbfd854e01f7656060ee
+Import-Package: com.apple.eawt,javax.imageio,javax.swing,javax.swing.b
+ order,javax.swing.event,javax.swing.filechooser,javax.swing.plaf,java
+ x.swing.plaf.basic,javax.swing.text,javax.swing.text.html,javax.swing
+ .tree
+Main-Class: edu.mit.csail.sdg.alloy4whole.Alloy
+Private-Package: amd64-linux,edu.mit.csail.sdg.alloy4,edu.mit.csail.sd
+ g.alloy4graph,edu.mit.csail.sdg.alloy4viz,edu.mit.csail.sdg.alloy4who
+ le,edu.mit.csail.sdg.ast,edu.mit.csail.sdg.parser,edu.mit.csail.sdg.s
+ im,edu.mit.csail.sdg.translator,help,help.image,icons.ColorIcons,icon
+ s.ShapeIcons,icons.StyleIcons,images,java_cup.runtime,kodkod.ast;vers
+ ion="2.0.0",kodkod.ast.operator;version="1.0.0",kodkod.ast.visitor;ve
+ rsion="1.0.0",kodkod.engine;version="1.0.0",kodkod.engine.bool;versio
+ n="1.0.0",kodkod.engine.config;version="1.0.0",kodkod.engine.fol2sat;
+ version="1.0.0",kodkod.engine.hol;version="1.0.0",kodkod.engine.satla
+ b;version="1.0.0",kodkod.engine.ucore;version="1.0.0",kodkod.instance
+ ;version="1.0.0",kodkod.util.collections;version="1.0.0",kodkod.util.
+ ints;version="1.0.0",kodkod.util.nodes;version="1.0.0",models.book.ap
+ pendixA,models.book.appendixE,models.book.chapter2,models.book.chapte
+ r4,models.book.chapter5,models.book.chapter6,models.book.chapter6.mem
+ ory,models.examples.algorithms,models.examples.case_studies,models.ex
+ amples.puzzles,models.examples.systems,models.examples.toys,models.ex
+ amples.tutorial,models.util,org.alloytools.alloy.core;version="1.0.0"
+ ,org.alloytools.graphics.util;version="1.0.0",org.alloytools.nativeco
+ de.util;version="1.0.0",org.alloytools.util.table;version="1.0.0",org
+ .sat4j,org.sat4j.core,org.sat4j.minisat,org.sat4j.minisat.constraints
+ ,org.sat4j.minisat.constraints.card,org.sat4j.minisat.constraints.cnf
+ ,org.sat4j.minisat.core,org.sat4j.minisat.learning,org.sat4j.minisat.
+ orders,org.sat4j.minisat.restarts,org.sat4j.opt,org.sat4j.reader,org.
+ sat4j.specs,org.sat4j.tools,org.sat4j.tools.encoding,org.sat4j.tools.
+ xplain,x86-linux,x86-mac,x86-windows
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.3.0.201907310746-SNAPSHOT
+

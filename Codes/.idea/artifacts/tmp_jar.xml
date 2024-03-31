@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tmp.jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/tmp_jar</output-path>
+    <root id="archive" name="tmp.jar">
+      <element id="module-output" name="tmp" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Alloy 5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

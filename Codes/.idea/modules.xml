@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/org.alloytools.alloy-5.1.0.iml" filepath="$PROJECT_DIR$/org.alloytools.alloy-5.1.0.iml" />
-      <module fileurl="file://$PROJECT_DIR$/org.alloytools.alloy.application/org.alloytools.alloy.application.iml" filepath="$PROJECT_DIR$/org.alloytools.alloy.application/org.alloytools.alloy.application.iml" />
-      <module fileurl="file://$PROJECT_DIR$/org.alloytools.alloy.core/org.alloytools.alloy.core.iml" filepath="$PROJECT_DIR$/org.alloytools.alloy.core/org.alloytools.alloy.core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/org.alloytools.alloy.dist/org.alloytools.alloy.dist.iml" filepath="$PROJECT_DIR$/org.alloytools.alloy.dist/org.alloytools.alloy.dist.iml" />
-      <module fileurl="file://$PROJECT_DIR$/org.alloytools.alloy.extra/org.alloytools.alloy.extra.iml" filepath="$PROJECT_DIR$/org.alloytools.alloy.extra/org.alloytools.alloy.extra.iml" />
-      <module fileurl="file://$PROJECT_DIR$/org.alloytools.kodkod.core/org.alloytools.kodkod.core.iml" filepath="$PROJECT_DIR$/org.alloytools.kodkod.core/org.alloytools.kodkod.core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/org.alloytools.kodkod.nativesat/org.alloytools.kodkod.nativesat.iml" filepath="$PROJECT_DIR$/org.alloytools.kodkod.nativesat/org.alloytools.kodkod.nativesat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Alloy 5.iml" filepath="$PROJECT_DIR$/.idea/Alloy 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tmp/tmp.iml" filepath="$PROJECT_DIR$/tmp/tmp.iml" />
     </modules>
   </component>
 </project>
