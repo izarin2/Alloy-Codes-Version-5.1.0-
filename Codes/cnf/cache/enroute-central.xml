@@ -1,0 +1,539 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="Central" increment="1711401598757">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+      <attribute name="osgi.identity" value="org.apache.felix.gogo.shell"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="documentation" value="http://www.apache.org/"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.apache.felix.gogo.shell"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.apache.felix.gogo.shell"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.apache.felix:org.apache.felix.gogo.shell:1.0.0"/>
+      <attribute name="from" value="org.apache.felix:org.apache.felix.gogo.shell:1.0.0"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.0.0"/>
+      <attribute name="maven-artifactId" value="org.apache.felix.gogo.shell"/>
+      <attribute name="maven-repository" value="org.apache.felix:org.apache.felix.gogo.shell:1.0.0"/>
+      <attribute name="maven-groupId" value="org.apache.felix"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="57662" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/israt/.m2/repository/org/apache/felix/org.apache.felix.gogo.shell/1.0.0/org.apache.felix.gogo.shell-1.0.0.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="BDA2C61372A924739778F8D3A75794E11753A056AFE9FE94ED06E14D441F1B6E"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.service.command)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.service.command"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.framework"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.service.startlevel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.service.startlevel"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.util.tracker)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.util.tracker"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.apache.ant:ant-launcher"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="1.7.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.apache.ant:ant-launcher:1.7.0"/>
+      <attribute name="from" value="org.apache.ant:ant-launcher:1.7.0"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.mainclass">
+      <attribute name="bnd.mainclass" value="org.apache.tools.ant.launch.Launcher"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.7.0"/>
+      <attribute name="maven-artifactId" value="ant-launcher"/>
+      <attribute name="maven-repository" value="org.apache.ant:ant-launcher:1.7.0"/>
+      <attribute name="maven-groupId" value="org.apache.ant"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="11734" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/israt/.m2/repository/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="72B3D03E0D7D86A56513EC38DD4CD6ABE3DA6620189BE222AB255352CB6EBA4A"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="xml-resolver:xml-resolver"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="1.1.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="xml-resolver:xml-resolver:1.1"/>
+      <attribute name="from" value="xml-resolver:xml-resolver:1.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.mainclass">
+      <attribute name="bnd.mainclass" value="org.apache.xml.resolver.apps.resolver"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.1"/>
+      <attribute name="maven-artifactId" value="xml-resolver"/>
+      <attribute name="maven-repository" value="xml-resolver:xml-resolver:1.1"/>
+      <attribute name="maven-groupId" value="xml-resolver"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="60047" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/israt/.m2/repository/xml-resolver/xml-resolver/1.1/xml-resolver-1.1.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="CD722B46A9CA4BF820867A15BB465BA3E8BB17608AECC1CDFEA9D1706E3DCFD7"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="com.github.vbmacher:java-cup"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="11.0.0.b-20160615" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="com.github.vbmacher:java-cup:11b-20160615"/>
+      <attribute name="from" value="com.github.vbmacher:java-cup:11b-20160615"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="11b-20160615"/>
+      <attribute name="maven-artifactId" value="java-cup"/>
+      <attribute name="maven-repository" value="com.github.vbmacher:java-cup:11b-20160615"/>
+      <attribute name="maven-groupId" value="com.github.vbmacher"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="124262" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/israt/.m2/repository/com/github/vbmacher/java-cup/11b-20160615/java-cup-11b-20160615.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="B6B27727D80F563950B20B3B6B5062AE7CE78A1B61A0F3113F42164CE0B31D5F"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.sat4j.core"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j"/>
+      <attribute name="bnd.hashes" value="1697539586,1197153167,-2090636850,-2058583989,336601908,-1487551381,-397449876,-914387632" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.core"/>
+      <attribute name="bnd.hashes" value="1368465078,37422640,-888200745,1282097485,-385216078,180508893,85876,-1736561701" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.minisat"/>
+      <attribute name="bnd.hashes" value="-129962665" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.minisat.constraints"/>
+      <attribute name="bnd.hashes" value="-1080432547,-1545955517,-1833059813,1237049113,1237049351,2056857341,-1887420967,-1887420510,1288347659" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.minisat.constraints.card"/>
+      <attribute name="bnd.hashes" value="952472022,-1540140133,-1065714067" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.minisat.constraints.cnf"/>
+      <attribute name="bnd.hashes" value="-291302160,-1776633660,190089627,-1180908608,-1852432277,9824116,2368732,1762500961,-2070874484,-208618091,-571671501,-541947232,2052346020" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.minisat.core"/>
+      <attribute name="bnd.hashes" value="1021022565,-377036541,2044702323,1384969564,936726350,2024055183,2108458130,-1672483364,-1028065279,2245132,69785765,-2128585595,181373069,616665730,1715433937,-1545289519,2479866,-802288586,1458298498,181191022,-1762316145,-2025492492,-1812902861,1187852332,-375406498,-682263972,1739538954,2018283630" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.minisat.learning"/>
+      <attribute name="bnd.hashes" value="384027008,-1630487452,1926330905,1895050392,734440120,-1542506451,-1617005013,1795840265,280227753" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.minisat.orders"/>
+      <attribute name="bnd.hashes" value="1286004807,2142832037,578672966,943901251,-1278703767,247112470,-1100451377,-1432617928,68820019,-1101799345,2014304909,1238708324,689912595" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.minisat.restarts"/>
+      <attribute name="bnd.hashes" value="957024197,-579069916,841214291,-1479532219" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.opt"/>
+      <attribute name="bnd.hashes" value="-1728878427,-1696179623,2034189255" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.reader"/>
+      <attribute name="bnd.hashes" value="1125205962,-2112180542,-816073396,1961008829,-1979940768,-1295441448,522744545,-37047547,-1851112221" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.specs"/>
+      <attribute name="bnd.hashes" value="1608027870,-1907652840,-126767767,-268753386,-1449643588,2260619,-1373302428,-1086078847,73217334,-1794362724,126968846" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.tools"/>
+      <attribute name="bnd.hashes" value="1389049302,904746128,-307291728,1991401146,-2076991194,116318611,-485952963,-274748083,2010735441,1276169562,1326509413,441684239,-702514011,209012414,-1959317714,1783958816,1962172055,1190921111,1739224582,-1210419518,995254704,-1518197529,1732439587,1515263304,1559042100" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.sat4j.core"/>
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.sat4j.tools.xplain"/>
+      <attribute name="bnd.hashes" value="1602781569,-1970499644,-696696364,998102818,441608801,2479866,-459423919,-965062382,-1668853646" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.sat4j.core"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="2.3.1.v20111031" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.sat4j.core"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.sat4j:org.sat4j.core:2.3.1"/>
+      <attribute name="from" value="org.sat4j:org.sat4j.core:2.3.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.mainclass">
+      <attribute name="bnd.mainclass" value="org.sat4j.BasicLauncher"/>
+      <attribute name="version" value="2.3.1.v20111031" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.3.1"/>
+      <attribute name="maven-artifactId" value="org.sat4j.core"/>
+      <attribute name="maven-repository" value="org.sat4j:org.sat4j.core:2.3.1"/>
+      <attribute name="maven-groupId" value="org.sat4j"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="267438" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/israt/.m2/repository/org/sat4j/org.sat4j.core/2.3.1/org.sat4j.core-2.3.1.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="7350E28DA5E798662BDD371A139861C5DFDB7D036E37D076B18E72D8351F780B"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="de.jflex:jflex"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="1.6.1" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="de.jflex:jflex:1.6.1"/>
+      <attribute name="from" value="de.jflex:jflex:1.6.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.mainclass">
+      <attribute name="bnd.mainclass" value="jflex.Main"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.6.1"/>
+      <attribute name="maven-artifactId" value="jflex"/>
+      <attribute name="maven-repository" value="de.jflex:jflex:1.6.1"/>
+      <attribute name="maven-groupId" value="de.jflex"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="1050749" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/israt/.m2/repository/de/jflex/jflex/1.6.1/jflex-1.6.1.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="12CB84582DD33E6DCEDB24DA4B0C1FE8075FC63916C7CC6DF140870CF1E929B6"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="xml-apis:xml-apis"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="1.3.3" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="xml-apis:xml-apis:1.3.03"/>
+      <attribute name="from" value="xml-apis:xml-apis:1.3.03"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.3.03"/>
+      <attribute name="maven-artifactId" value="xml-apis"/>
+      <attribute name="maven-repository" value="xml-apis:xml-apis:1.3.03"/>
+      <attribute name="maven-groupId" value="xml-apis"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="195119" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/israt/.m2/repository/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="EC225A1C66D4505FECD1AD7644CE4477E626F439FD9230DBF8338CEBDFC3A0E5"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.eclipse.jdt.annotation"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="2.1.100.v20170511-1408" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.eclipse.jdt.annotation"/>
+      <attribute name="bundle-version" value="2.1.100.v20170511-1408" type="Version"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.eclipse.jdt.annotation"/>
+      <attribute name="bnd.hashes" value="2017306763,-1392852746,-507294252,-539737482,-1841323135,-1923478059" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="2.1.100.v20170511-1408" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.eclipse.jdt.annotation"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="2.1.100.v20170511-1408" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.eclipse.jdt.annotation"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.eclipse.jdt:org.eclipse.jdt.annotation:2.1.100"/>
+      <attribute name="from" value="org.eclipse.jdt:org.eclipse.jdt.annotation:2.1.100"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.1.100"/>
+      <attribute name="maven-artifactId" value="org.eclipse.jdt.annotation"/>
+      <attribute name="maven-repository" value="org.eclipse.jdt:org.eclipse.jdt.annotation:2.1.100"/>
+      <attribute name="maven-groupId" value="org.eclipse.jdt"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="25821" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/israt/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.annotation/2.1.100/org.eclipse.jdt.annotation-2.1.100.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="69D064E1E04646F2DD412FFAF47C080781EC8E4DB4A1D2B47F1A700089685145"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="xerces:xercesImpl"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="2.8.1" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="xerces:xercesImpl:2.8.1"/>
+      <attribute name="from" value="xerces:xercesImpl:2.8.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.8.1"/>
+      <attribute name="maven-artifactId" value="xercesImpl"/>
+      <attribute name="maven-repository" value="xerces:xercesImpl:2.8.1"/>
+      <attribute name="maven-groupId" value="xerces"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="1212965" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/israt/.m2/repository/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="F95F3AD141BDFF5A64962F6C26B4F18ECF0975CD3A68802712284B9E6DB37E1B"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.apache.ant:ant"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="1.7.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.apache.ant:ant:1.7.0"/>
+      <attribute name="from" value="org.apache.ant:ant:1.7.0"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.mainclass">
+      <attribute name="bnd.mainclass" value="org.apache.tools.ant.Main"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.7.0"/>
+      <attribute name="maven-artifactId" value="ant"/>
+      <attribute name="maven-repository" value="org.apache.ant:ant:1.7.0"/>
+      <attribute name="maven-groupId" value="org.apache.ant"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="1289806" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/israt/.m2/repository/org/apache/ant/ant/1.7.0/ant-1.7.0.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="92F72307E7440F1E352C916F2438D2BBAB3FFD2CF730C71316117AD04ABADEA8"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+      <attribute name="osgi.identity" value="org.apache.felix.gogo.runtime"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="documentation" value="http://www.apache.org/"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.gogo.runtime"/>
+      <attribute name="bundle-version" value="1.0.0" type="Version"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.service.command"/>
+      <attribute name="bnd.hashes" value="1073665447,82059409,-426160917,-42575169,1654237568,1245097871,1445582840,-1808614382,74653,205348721,-336538743,1355134543,-1850559427" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.gogo.runtime"/>
+      <attribute name="bundle-version" value="1.0.0" type="Version"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.service.threadio"/>
+      <attribute name="bnd.hashes" value="1538269392" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.felix.service.command,org.apache.felix.service.threadio,org.osgi.framework"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.gogo.runtime"/>
+      <attribute name="bundle-version" value="1.0.0" type="Version"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.gogo.runtime"/>
+      <attribute name="bnd.hashes" value="919411700,733481766,-1763761637,-1303848779,-740261785,2106664451,226419549,774223275,-835551604,226431161,556435807,1445582840,-1874456345,-1275239699,65290933,1148791030,-503167036,-570847113,-563440349,-435909436,80988633,2146092791,-1184942436,198012600,63537721,-1762238358,-307425598,1355265636,1414192097,-81180337,-1911543745,-980291158,390966376,-1850559427,2487758,627165467,1615877061" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.felix.gogo.runtime,org.apache.felix.service.command,org.apache.felix.service.threadio,org.osgi.framework"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.gogo.runtime"/>
+      <attribute name="bundle-version" value="1.0.0" type="Version"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.gogo.runtime.activator"/>
+      <attribute name="bnd.hashes" value="-2086606091,1318678729" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.felix.service.threadio"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.felix.gogo.runtime"/>
+      <attribute name="bundle-version" value="1.0.0" type="Version"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.gogo.runtime.threadio"/>
+      <attribute name="bnd.hashes" value="-1997438886,-768209136,-311712928,-339015677" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.apache.felix.gogo.runtime"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.apache.felix.gogo.runtime"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.apache.felix:org.apache.felix.gogo.runtime:1.0.0"/>
+      <attribute name="from" value="org.apache.felix:org.apache.felix.gogo.runtime:1.0.0"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.0.0"/>
+      <attribute name="maven-artifactId" value="org.apache.felix.gogo.runtime"/>
+      <attribute name="maven-repository" value="org.apache.felix:org.apache.felix.gogo.runtime:1.0.0"/>
+      <attribute name="maven-groupId" value="org.apache.felix"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="189122" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/israt/.m2/repository/org/apache/felix/org.apache.felix.gogo.runtime/1.0.0/org.apache.felix.gogo.runtime-1.0.0.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="BAAD835C6FA65AFC1695CC92A9E1AFE2967E546CAE94D59FA9E49B557052B2B1"/>
+    </capability>
+    <capability namespace="osgi.service">
+      <directive name="effective" value="active"/>
+      <attribute name="objectClass" value="org.apache.felix.service.threadio.ThreadIO"/>
+    </capability>
+    <capability namespace="osgi.service">
+      <directive name="effective" value="active"/>
+      <attribute name="objectClass" value="org.apache.felix.service.command.CommandProcessor"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.service.event)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.service.event"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.gogo.runtime)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.gogo.runtime"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.gogo.runtime.threadio)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.gogo.runtime.threadio"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.service.command)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.service.command"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.service.threadio)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.service.threadio"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.framework"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.util.tracker)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.util.tracker"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
+    </requirement>
+  </resource>
+</repository>
