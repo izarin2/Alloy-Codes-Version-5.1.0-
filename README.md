@@ -26,4 +26,5 @@ The 'amd64-linux' folder contains all the library. Add the library path in the a
 Add one of the modes from the example folder in the alloy.sh file.
 ## Step 3:
 Add the location of the main java file (Codes>org.alloytools. alloy.core>src>main>java>tmp>SolverExplorer) and jar file (Codes\org.alloytools.alloy.core\target\org.alloytools.alloy.core.jar)in the alloy.sh file
-
+# 3. Dataset Collection:
+## Step 1: https://github.com/Kaixi26/TAR/tree/main/beafix_benchmarks
