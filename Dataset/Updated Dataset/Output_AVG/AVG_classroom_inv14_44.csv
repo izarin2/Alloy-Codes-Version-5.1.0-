@@ -1,0 +1,9 @@
+Solver Name,Execution Time,Memory
+Minisat,1752,21872
+Sat4j,1796,21872
+MiniSatProver,1587,21873
+CryptoMiniSatJNI,1710,21872
+Glucose,1756,21872
+Glucose41JNI,1799,21872
+KK,1904,21877
+Lingeling,1805,21872
